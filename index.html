@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Happy Birthday My Love 💕</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+       <link rel="icon" href="photo-1.jpg" type="image/jpg">
+</head>
+
+<body>
+    <!-- Floating Background Particles -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <h1 class="typewriter" id="typewriter">Happy Birthday To Sravani Mam 💕</h1>
+            <p class="subtitle fade-in">Today is all about celebrating you Ma’am</p>
+            <div class="floating-hearts">
+                <div class="heart">❤️</div>
+                <div class="heart">💖</div>
+                <div class="heart">💕</div>
+                <div class="heart">💗</div>
+                <div class="heart">❤️</div>
+            </div>
+            <button class="cta-button" onclick="scrollToSection('gallery')">
+                Start the Celebration 🎉
+            </button>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Photo Gallery Section -->
+    <section class="gallery-section" id="gallery">
+        <div class="container">
+            <h2 class="section-title">Our Beautiful Memories</h2>
+            <div class="gallery-grid">
+                <div class="photo-card" data-aos="fade-up" data-delay="100">
+                    <div class="photo-container">
+                        <img src="photo-1.jpg"
+                            alt="Beautiful moment">
+                        <div class="photo-overlay">
+                            <div class="photo-caption">Your smile lights up the class❤️</div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <span class="heart-icon">🤍</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="photo-card" data-aos="fade-up" data-delay="200">
+                    <div class="photo-container">
+                        <img src="photo-2.jpg"
+                            alt="Sweet memory">
+                        <div class="photo-overlay">
+                            <div class="photo-caption">Every moment with you is magical💙</div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <span class="heart-icon">🤍</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="photo-card" data-aos="fade-up" data-delay="300">
+                    <div class="photo-container">
+                        <img src="photo-3.jpg"
+                            alt="Happy times">
+                        <div class="photo-overlay">
+                            <div class="photo-caption">With your guidance, every step becomes brighter💖</div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <span class="heart-icon">🤍</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="photo-card" data-aos="fade-up" data-delay="400">
+                    <div class="photo-container">
+                        <img src="photo-4.jpg"
+                            alt="Love moment">
+                        <div class="photo-overlay">
+                            <div class="photo-caption"></div>
+                            <div class="photo-caption">Lessons Fade, But Your Inspiration Stays Forever❤️‍🔥</div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <span class="heart-icon">🤍</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="photo-card" data-aos="fade-up" data-delay="500">
+                    <div class="photo-container">
+                        <img src="photo-5.jpg"
+                            alt="Beautiful day">
+                        <div class="photo-overlay">
+                            <div class="photo-caption">Teacher and Student – A Journey of Learning💟</div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <span class="heart-icon">🤍</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="photo-card" data-aos="fade-up" data-delay="600">
+                    <div class="photo-container">
+                        <img src="photo-6.jpg"
+                            alt="Romantic moment">
+                        <div class="photo-overlay">
+                            <div class="photo-caption">A teacher’s wisdom, a student’s treasure🤍</div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <span class="heart-icon">🤍</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Birthday Message Section -->
+    <section class="message-section" id="message">
+        <div class="container">
+            <div class="message-card">
+                <h2 class="message-title">A Special Message for You, Ma’am</h2>
+                <div class="message-content">
+                    <p class="message-text fade-in-text">
+                        On this special day, I want you to know how truly grateful I am to have you in my life as a guide and mentor. Your words inspire me, your kindness motivates me, and your wisdom lights up every path I walk. You are not just my teacher, Ma’am — you are a role model, a source of strength, and someone I deeply admire.
+                    </p>
+                    <p class="message-text fade-in-text">
+                    Today, we celebrate you – your knowledge, your compassion, your amazing spirit, and all the wonderful things that make you so special. I hope this new year of your life brings you endless happiness, success in all your dreams, and countless beautiful memories.
+                    </p>
+
+
+                    </p>
+                    <p class="message-signature fade-in-text">
+                       💐 Happy Birthday, Ma’am! Here’s to many more years of joy, wisdom, and inspiration. 🌟
+                    </p>
+                </div>
+                <div class="message-hearts">
+                    <span class="heart-animation">💖</span>
+                    <span class="heart-animation">💕</span>
+                    <span class="heart-animation">💗</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; Sravani Mam 💖💗❤️</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
